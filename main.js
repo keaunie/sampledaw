@@ -28,7 +28,7 @@ const loader = new GLTFLoader();
 
 //Load the file
 loader.load(
-  `https://github.com/gjmolter/web-3dmodel-threejs/blob/6132de3128a041f3c4ac3aa49f03cb9f137ab61a/models/eye/scene.gltf`,
+  `https://github.com/keaunie/sampledaw/blob/5eb08eb8b779d11f2e1fb318d315e63bed8b9016/lancerevo6/scene.gltf`,
   function (gltf) {
     //If the file is loaded, add it to the scene
     object = gltf.scene;
